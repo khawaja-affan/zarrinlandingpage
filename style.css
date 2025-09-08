@@ -1,143 +1,115 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+  
 }
-
-nav {
-    justify-content: space-around;
-    display: flex;
-    text-decoration: none;
-}
-
-.nav-text {
-    height: 50px;
-    display: flex;
-    gap: 200px;
-    justify-content: space-around;
-    margin-top: 30px;
-    margin-bottom: 16px;
-}
-
-.list-text>ul {
-    display: flex;
-    gap: 20px;
-    width: 1440;
-    height: 98;
-    opacity: 1;
-
-}
-
-.nav-text>ul {
-    display: flex;
-    gap: 20px;
-
-}
-
-.list-text {
-    display: flex;
-    gap: 50px;
-    height: -10px;
-    text-decoration: none;
-}
-
-.list-text>ul>li {
-    width: 100px;
-    height: 10px;
+.nav-ul{
     list-style: none;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 100px;
+    gap: 100px;
+    cursor: pointer;
+    
 }
-
-.list-text>ul>li>a {
-    font-family: "Raleway", sans-serif;
-    text-decoration: none;
-    color: black;
-}
-
-.section-1 {
-    background-color: #7C4EE4;
-
-}
-
-.section-1>ul>h1 {
-    width: 580;
-height: 474;
-top: 230px;
-left: 102px;
-opacity: 1;
-border-radius: 8px;
-
-}
-.section-1>ul>p{
-    width: 416;
-height: 96;
-top: 491px;
-left: 102px;
-opacity: 1;
-
-}
-.put-text{
- display: flex;
- margin-left: 400px;
- margin-bottom: 50px;
-
-}
-
-.section-2>img {
-     
-
-
-
-
-}
-.sec-con>img{
-    width: 920;
-height: 360;
-top: 1357px;
-left: 416px;
-opacity: 1;
-border-radius: 16px;
-
-}
-.affan{
-    margin-left: 50px;
-    margin-top: 50px;
-    text-align: justify;
-    text-decoration: solid;
-}
-.section-2>button{
+.blog{
     color: #7C4EE4;
+}
+.contact{
+    /* border: 2px;
+    height: 2px; */
+    padding: 20px ;
     background-color: #7C4EE4;
-    width: 147px;
-height: 53px;
-margin-bottom: 30px;
-margin-left: 1100px;
-margin-right: 100px;
-opacity: 1;
-border-radius: 8px;
-padding-top: 16px;
-padding-right: 48px;
-padding-bottom: 30px;
-padding-left: 48px;
-gap: 10px;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+}
+.nav-header{
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    
+    
+}
+.section-1{
+    background-color: #7C4EE4;
+}
+
+.nav-section2{
+    margin-top: 150px;
+    margin-left: 100px;
+    color: #FFFFFF;
+}
+.main-ai{
+    font-size: 48px;
+}
+.nav-section1{
+    margin: auto;
+    padding: 50px;
+    background-color: #7C4EE4;
+    
+}
+.img-ai{
+    height: 500px;
+    width: 500px;
+    margin-left: 700px;
+    margin-top: -500px;
+}
+.read-more{
+    border: 2px;
+    padding: 20px;
+    
+    border-radius: 10px;
+}
+/* page 2 styling */
+.section-2{
+    display: flex;
+   margin: 3px;
+   padding: 3px;
+   
+}
+.page-2{
+    
+    margin: auto;
+    padding: auto ;
+   
+}
+
+.pic-2{
+    width: 1200px;
+     height: 700px; 
+    margin-top: 30px;
+
+}
+.para-1{
+    display: flex;
+}
+.para{
+    background-color:white;
+    margin-left: 476px;
+    margin-top: -350px;
+    position: relative;
+      /* margin: 3px; */
+     padding: 40px; 
+    width: 800px;
+    border-radius: 20px;
+
 
 
 }
-.pop-but>button{
-    background-color: #7C4EE4;
-    width: 147px;
-height: 53px;
-margin-bottom: 30px;
-margin-left: 1100px;
-margin-right: 50px;
-opacity: 1;
-border-radius: 8px;
-padding-top: 16px;
-padding-right: 48px;
-padding-bottom: 15px;
-padding-left: 48px;
-gap: 10px;
-
-
+.game{
+    font-size: 40px;
 }
+.read{
+    color: purple;
+    padding: 20px;
+    border: 4px solid purple;
+    border-radius: 10px;
+}
+
+
 
 .travel>img {
     width: 400;
@@ -180,10 +152,25 @@ gap: 10px;
     justify-content: center;
 }
 
+
+.pop-but>button{
+    padding: 20px;
+    background-color: #7C4EE4;
+    columns: #ffffff;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 1100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+    width: 125px;
+    margin-top: -200px;
+
+}
+
 .popular>h1 {
     color: black;
-    margin-top: 30px;
-    margin-left: 30px;
+    margin-top: 50px;
+    margin-left: 100px;
     height: 60px;
 }
 
@@ -278,3 +265,5 @@ gap: 10px;
 
     
 }
+
+
